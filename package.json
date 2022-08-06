@@ -1,0 +1,14 @@
+{
+  "name": "eduardopage",
+  "version": "1.0.0",
+  "description": "Prof. Eduardo L. O. Batista Personal Page",
+  "main": "myscripts.js",
+  "scripts": {
+    "build": "node -e 'require(\"./myscripts\").buildfiles()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}

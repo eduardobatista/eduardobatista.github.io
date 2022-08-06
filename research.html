@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="css/fontawesome/all.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
-    <link rel="stylesheet" href="css/mystyles.css">
+    <!-- <link rel="stylesheet" href="css/mystyles.css"> -->
+    <link rel="stylesheet" href="assets/css/mystyles.css">
     <link href='https://fonts.googleapis.com/css?family=Maven Pro' rel='stylesheet'>
     <style>
     body { font-family:'Maven Pro'; font-size: 16px; }
@@ -17,8 +18,8 @@
   </head>
   <body>
 
-<div class="container mb-0">
-    <nav class="navbar is-transparent">
+    <div class="container mb-0">
+      <nav class="navbar is-transparent">
         <div class="navbar-brand">
           <a class="navbar-item ml-3" href="https://eduardobatista.github.io/">
             <i class="fa-solid fa-chalkboard-user"></i>
@@ -47,14 +48,14 @@
               </a>
               <div class="navbar-dropdown is-boxed">
                 <a class="navbar-item" href="projects.html#ActVib">
-                    ActVib
-                  </a>
-                  <a class="navbar-item" href="projects.html#FPGAEmuWeb">
-                    FPGAEmuWeb
-                  </a>
-                  <a class="navbar-item" href="projects.html#TCMon">
-                    TCMon
-                  </a>
+                  ActVib
+                </a>
+                <a class="navbar-item" href="projects.html#FPGAEmuWeb">
+                  FPGAEmuWeb
+                </a>
+                <a class="navbar-item" href="projects.html#TCMon">
+                  TCMon
+                </a>
               </div>
             </div>
           </div>
@@ -78,43 +79,30 @@
                       <i class="fa-brands fa-github"></i>
                     </span>
                   </a>
+                  <a class="bd-tw-button button is-link" target="_blank" href="https://scholar.google.com/citations?user=OUbSAuwAAAAJ">
+                    <span class="icon">
+                      <i class="fa-brands fa-google"></i>
+                    </span>
+                  </a>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </nav>
-</div>
+    </div>
 
-
-
+  
   <section class="section mt-0 p-2">
-    <div class="container">
-        Under construction...
+    <div class="container mt-0">
+       Under construction...      
     </div>
   </section>
+
+
+  
   </body>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
+  <!-- <script src="assets/scripts.js"></script> -->
 
-      // Get all "navbar-burger" elements
-      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-      // Add a click event on each of them
-      $navbarBurgers.forEach( el => {
-        el.addEventListener('click', () => {
-
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target;
-          const $target = document.getElementById(target);
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active');
-          $target.classList.toggle('is-active');
-
-        });
-      });
-
-      });
-  </script>
+  
 </html>
