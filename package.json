@@ -4,11 +4,13 @@
   "description": "Prof. Eduardo L. O. Batista Personal Page",
   "main": "myscripts.js",
   "scripts": {
-    "build": "node -e 'require(\"./myscripts\").buildfiles()'"
+    "build": "node myscripts.js",
+    "watch": "npm run build --watch"    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chokidar": "^3.5.3",
     "nunjucks": "^3.2.3"
   }
 }
