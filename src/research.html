@@ -11,7 +11,7 @@
 
       <h1 class="title is-5 mt-3 mb-2">Publications</h1>
       <div class="box content">
-        Lists of my publications can be found through the following websites: 
+        <h5>Sources</h5>
         <ul class="mt-1">
           <li><a href="https://scholar.google.com.br/citations?user=OUbSAuwAAAAJ&hl=en&oi=sra">Google Scholar</a></li>          
           <li><a href="http://dblp.uni-trier.de/pers/hd/b/Batista:Eduardo_Luiz_Ortiz">DBLP</a></li>          
@@ -19,7 +19,15 @@
           <li><a href="http://lattes.cnpq.br/6303940442103708">Lattes Curriculum (http://lattes.cnpq.br/6303940442103708)</a></li>          
           <li><a href="http://www.linse.ufsc.br/skel1.php?section_id=19&parent=pesquisa&QueryKind=author&LINSEAuthor=90&language=en-US">Circuits and Signal Processing Lab Home Page (http://www.linse.ufsc.br)</a></li>
         </ul>
-       </div>      
+       </div> 
+       <div class="box content mb-5">
+        <h5>Journal Papers</h5> 
+        {% include "journalpubs.html" %} 
+       </div>
+       <div class="box content mb-5">
+        <h5>Conference Papers</h5>
+        {% include "conferencepubs.html" %} 
+       </div>
     </div>
   </section>
 {% endblock %}

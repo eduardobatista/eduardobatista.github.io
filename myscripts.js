@@ -2,6 +2,7 @@ const njk = require('nunjucks')
 const fs = require('fs');
 
 const filesToRender = ['index.html', 'projects.html', 'teaching.html', 'research.html', 'base.html'];
+const filesToWatch = ['journalpubs.html','conferencepubs.html']
 
 // njk.configure("src",{autoscape: true});
 // const filesToRender = ['index.html', 'projects.html', 'teaching.html', 'research.html'];
@@ -23,5 +24,8 @@ buildfiles = function () {
 }
 
 filesToRender.forEach( 
+  element => fs.watchFile("src/" + element,buildfiles)
+);
+filesToWatch.forEach( 
   element => fs.watchFile("src/" + element,buildfiles)
 );
