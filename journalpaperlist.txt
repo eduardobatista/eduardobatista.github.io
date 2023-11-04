@@ -1,0 +1,15 @@
+http://dx.doi.org/10.1109/TMECH.2021.3104307
+http://dx.doi.org/10.1109/TSP.2009.2036480
+http://dx.doi.org/10.1016/j.dsp.2022.103475
+http://dx.doi.org/10.1016/j.sigpro.2020.107772
+http://dx.doi.org/10.1109/ACCESS.2019.2930029
+http://dx.doi.org/10.1016/j.dsp.2019.102621
+http://dx.doi.org/10.1049/el.2017.4776
+http://dx.doi.org/10.1109/tcsii.2017.2694338
+http://dx.doi.org/10.1109/lwc.2016.2555312
+http://dx.doi.org/10.1016/j.dsp.2016.05.009
+http://dx.doi.org/10.1186/s13634-016-0420-5
+http://dx.doi.org/10.1016/j.sigpro.2015.06.019
+http://dx.doi.org/10.1109/twc.2014.2359021
+http://dx.doi.org/10.1016/j.sigpro.2013.02.003
+http://dx.doi.org/10.1016/j.sigpro.2012.02.011
