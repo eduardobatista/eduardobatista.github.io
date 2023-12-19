@@ -5,12 +5,12 @@
   "main": "myscripts.js",
   "scripts": {
     "build": "node myscripts.js",
-    "watch": "npm run build --watch"    
+    "watch": "npm run build --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chokidar": "^3.5.3",
-    "nunjucks": "^3.2.3"
+    "nunjucks": "^3.2.4"
   }
 }

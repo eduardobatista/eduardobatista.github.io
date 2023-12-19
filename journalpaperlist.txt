@@ -1,3 +1,4 @@
+https://doi.org/10.1016/j.neunet.2023.12.019
 http://dx.doi.org/10.1109/TMECH.2021.3104307
 http://dx.doi.org/10.1109/TSP.2009.2036480
 http://dx.doi.org/10.1016/j.dsp.2022.103475
